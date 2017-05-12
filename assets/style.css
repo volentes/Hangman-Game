@@ -19,21 +19,26 @@ body:after {
 
 /* Header of the page */
 header {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   background-color: #dda0dd;
   width: 100%;
   position: relative;
   }
+h1 {
+  font-family: 'Barrio', cursive;
+  font-size: 100px;
+  color: black;
+  }
 
 /* Theme of the game */
 #theme {
   margin: auto;
+  clear: both;
 }
-
 h2 {
   font-family: 'Lobster Two', cursive;
-  font-size: 55px;
+  font-size: 45px;
 }
 h3 {
   font-family: 'Lobster Two', cursive;
@@ -43,29 +48,55 @@ p {
   font-family: 'BenchNine', sans-serif;
   font-size: 20px;
 }
+
 /* Introduction to the game */
 #introduction{
   margin: auto;
+  clear: both;
 }
 
 /* Instructions on how to play game */
 #instructions {
   margin: auto;
+  clear: both;
 }
 
 /* The Gaming Area */
 #gamingarea {
+  float: left;
+  clear: both;
+  background-color: #d8bfd8;
+  padding: 20px;
+  padding-top: 50px;
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 30%;
+  margin-left: 15%;
+  padding-bottom: 40px
 }
 
+/* Gallows */
+#gallows {
+  float: left;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding-top: 0px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  padding-bottom: -136px;
+}
 
 /* The footer of the page */
 footer {
+  overflow: auto;
+  clear: both;
   padding: 20px;
   text-align: center;
   background-color: #dda0dd;
   width: 100%;
   font-family: 'Abril Fatface', cursive;
-  position: ;
   display: block;
   margin: auto;
 }
