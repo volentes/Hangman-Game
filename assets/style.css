@@ -2,21 +2,10 @@
 
 /* The background image */
 body {
-   position: relative;
+  position: relative;
+  background-color: 	#fff5ee;
+  background-size: contain;
 }
-body:after {
-    content : "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url("./images/edit2.jpg");
-    width: 100%;
-    height: 100%;
-    opacity : 0.1;
-    /*z-index: -1;*/
-}
-
 /* Header of the page */
 header {
   padding: 10px;
@@ -53,13 +42,16 @@ p {
 #introduction{
   margin: auto;
   clear: both;
+
 }
 
 /* Instructions on how to play game */
 #instructions {
   margin: auto;
   clear: both;
+
 }
+
 
 /* The Gaming Area */
 #gamingarea {
@@ -75,6 +67,12 @@ p {
   width: 30%;
   margin-left: 15%;
   padding-bottom: 40px
+}
+
+/*Styling for blanks */
+
+#blanks{
+  font-size: 40px;
 }
 
 /* Gallows */

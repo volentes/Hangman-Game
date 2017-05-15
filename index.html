@@ -19,6 +19,9 @@
 </head>
 
 <body>
+  <div class="wrapper">
+
+
   <!--Main heading of page and Game Name -->
     <header>
         <h1 class="text-center">HANGMAN</h1>
@@ -37,31 +40,32 @@
     </div>
 
   <!--Instructions on how to play the game-->
-    <div id= "instructions">
+    <div class= "text-center" id= "instructions">
       <h3 class="text-center">Instructions</h3>
-          <p class="text-center">
+          <p>
             1. Press the start button to begin the game.
           </p>
-          <p class="text-center">
+          <p>
             2. Click on the letters listed below to guess who said the famous quote.
           </p>
-          <p class="text-center">
+          <p>
             3. With each missed guess your fashion victim will get closer to death by fashion faux pas.
           </p>
-          <div id ="startbutton"></div>
-          <div id ="buttons"></div>
+          <button id ="startbutton" type="button" class="btn btn-primary"
+            style = "background-color: #dda0dd">START</button>
+         <div id ="buttons"></div>
     </div>
 
   <!--The Gaming Area -->
-    <div id="gamingarea">
+    <div id = "gamingarea">
         <p>Quote</p>
-        <br></br>
+        <p id = "display"></p>
         <p>Fashion Icon Name</p>
-        <br></br>
+        <p id = "blanks"></p>
         <p>Numer of Remaining Misses</P>
-        <br></br>
+        <p id = "guesses"></p>
         <p>Letters Already Used</p>
-        <br></br>
+        <p id = "letters"></p>
     </div>
 
   <!--Hangman Image -->
@@ -73,7 +77,10 @@
     <footer>
         Copyright 2017 Volenté Stevens
     </footer>
+  </div>
+    <script type="text/javascript" src= "assets/game.js"></script>
 
 </body>
+
 
 </html>
